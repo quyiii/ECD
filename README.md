@@ -1,5 +1,5 @@
 # ECD
-The official implementation of "[EDC: Event-Centric Disentangler for Weakly Supervised Video Anomaly Detection]".
+The official implementation of "[ECD: Event-Centric Disentangler for Weakly Supervised Video Anomaly Detection]".
 
 ## Abstract
 Weakly supervised video anomaly detection (WVAD) aims to detect where abnormal events occur in videos using only video-level labels during training. Many existing WVAD methods concentrate on learning comprehensive representations for each frame, making them susceptible to interference from irrelevant backgrounds or scenes. In this paper, we address this challenge by introducing disentangled representation learning to WVAD, presenting a new modular component named the Event-Centric Disentangler (ECD). Specifically, our ECD incorporates an Event Focus Attention (EFA) module, estimating channel-wise attention to focus on event representations while filtering out irrelevant information from backgrounds or scenes. Alongside EFA, a Frame Importance Allocator (FIA) learns frame-wise weighting factors to aggregate frame-level predictions for the generation of video-level predictions. Furthermore, we introduce a video-level contrastive loss to provide disentanglement supervision for ECD training, within the constraints of weakly supervised settings.
