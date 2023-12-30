@@ -1,0 +1,9 @@
+logs
+wandb
+outputs
+shells
+excels
+.vscode
+
+
+*.pyc
